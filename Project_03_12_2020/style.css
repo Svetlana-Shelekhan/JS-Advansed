@@ -1,0 +1,44 @@
+#container {
+    margin: 20% auto 0;
+    max-width: 50%;
+    text-align: center;
+     
+
+}
+section {
+margin: 0;
+background: #FFF4E0;
+color: #474C4F;
+padding: 30px;
+position: relative;
+text-align: center;
+text-transform: uppercase;
+font-family: 'Lato', sans-serif;
+}
+section:before {
+position: absolute;
+z-index: 2;
+left: 50%;
+transform: translateX(-50%);
+top: 14px;
+color: #474C4F;
+font-size: 20px;
+background: #FFF4E0;
+padding: 0 15px;
+}
+section:after {
+content: "";
+position: absolute;
+left: 15px;
+top: 20px;
+right: 15px;
+height: 4px;
+border-top: 1px dotted #474C4F;
+border-bottom: 1px dotted #474C4F;
+}
+section p {
+font-size: 20px;
+letter-spacing: .05em;
+line-height: 1.4;
+}
+
