@@ -1,0 +1,79 @@
+ body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.title {
+    padding-top: 40px;
+}
+
+.sub_title {
+    padding: 10px 0 10px 0;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(4 , 2fr);
+    width: 93%;
+    grid-gap: 20px;
+    margin-top: 50px;
+}
+
+.images li {
+    list-style-type: none;
+}
+
+.images li img {
+    width:  200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    border: 5px solid black;
+}
+
+#removeButton:hover {
+    cursor: pointer;
+}
+
+#removeButton {
+    background-color: darkorange;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Source Code Pro', monospace;
+    outline: none;
+    padding: 6px 14px;
+    margin-top: 8px;
+}
+
+figcaption p {
+    margin: 5px;
+}
+
+.modal{
+display: none;/*окно модальное скрыто*/
+ position: fixed;         /*окно зафиксировано двигалось вместе с прокруткой*/
+ z-index: 1000;  /*окно ставилось поверх других окон*/
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color:rgba(0,0,0,0.6);
+overflow: auto; 
+}
+.modal_content{
+    margin: 300px auto;
+    background-color: #fff;
+    padding: 20px;
+    width: 60%;
+    z-index: 99999;
+}
+.close_modal_window{
+    color: #000;
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#statya:hover img{width: 500px;}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <title>Проект 03.12.2020 </title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="page-preloader" class="preloader">
+  <div class="loader"></div>
+</div>
+
+
+
+    <form>
+      <input type="text" placeholder="Введите название города" id="city_name" autofocus>
+      <button type="button" id="get-weather-name-city">SUBMIT</button>
+      <span class="msg"></span>
+    </form>
+
+
+  <img src="img/5e0472941fe1516f415f92a3.png" width="100%" />
+<h1>The Weather</h1>
+<section id="current-weather-details">
+    <ul>
+        <li class="cityname"></li>
+        <li id="humidity"> --</li>
+        <li id="pressure"> --</li>
+        <li id="temperature">&#176;</li>
+        <li id="wind-speed"> --</li>
+    </ul>
+
+    <div id="greyProgress">
+  <div id="greenBar">10%</div>
+</div>
+</section>
+<p id="weather-summary"></p>
+
+
+  <script src ="script.js"></script>  	
+</body>
+</html>
+
