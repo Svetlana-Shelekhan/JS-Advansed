@@ -6,27 +6,41 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway" rel="stylesheet">
         <title>Image File Uploader</title>
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+<body>
 
-        <!--modal vindov-->
-        <div class="modal" id="mymodal">  <!--задний фон модального окна-->
-            <div class="modal_content"><!--модальное окно-->
-                <span class="close_modal_window">&times;</span><!--крестик-закрытия данного окна-->
-            </div>
-        </div>
+  <div>
+    <h1 class="title">Your Image Uploader</h1>
+    <p class="sub_title">You can upload any image you want</p>
+    <input type="file" id="uploader" style="display: none" multiple accept="image/*">
+    <label for="uploader" id="selectFiles">Select a file ...</label>
+    <ul class="images"></ul>
+  </div>
 
-    <div id="statya">
-        <h1 class="title">Your Image Uploader</h1>
-        <p class="sub_title">You can upload any image you want</p>
-        <input type="file" id="uploader" style="display: none" multiple accept="image/*">
-        <label for="uploader" id="removeButton">Select a file ...</label>
-        <ul class="images"></ul>
+  <div class="modal-delete hidden">
+    <div class="modal-delete-wrapper">
+      <h4 class="modal-delete-title">Are you sure?</h4>
+      <button class="modal-delete-btn modal-delete-confirm">Yes</button>
+      <button class="modal-delete-btn modal-delete-cancel">Cancel</button>
     </div>
+    
+  </div>
 
-    <!--<script src="./leetcode/easy/String/string_matching.js"></script>-->
-    <script src="./displayImages.js"></script>
-    <script src="./playground.js"></script>
-    </body>
+  <div class="modal-image hidden">
+    <div class="modal-image-wrapper"></div>
+  </div>
+
+  <script src="./js/writeToLocalStorage.js"></script>
+  <script src="./js/hideModal.js"></script>
+  <script src="./js/showModal.js"></script>
+  <script src="./js/closeImage.js"></script>
+  <script src="./js/closeImageByEscape.js"></script>
+  <script src="./js/removeFileExtansion.js"></script>
+  <script src="./js/displayImages.js"></script>
+  <script src="./js/chooseImage.js"></script>
+  <script src="./js/uploadImages.js"></script>
+  <script src="./js/removeImage.js"></script>
+  <script src="./js/main.js"></script>
+</body>
 </html>
