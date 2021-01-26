@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorial</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="keys">
+    <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">hihat</span>
+    </div>
+    <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">boom</span>
+    </div>
+    <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">kick</span>
+    </div>
+</div>
+
+<audio data-key="65" >
+    <source src="sounds/hihat.wav" type="audio/wav">
+    <source src="sounds/hihat.ogg" type="audio/ogg">
+    <source src="sounds/hihat.mp3" type="audio/mpeg">
+</audio>
+<audio data-key="83" >
+    <source src="sounds/boom.wav" type="audio/wav">
+    <source src="sounds/boom.ogg" type="audio/ogg">
+    <source src="sounds/boom.mp3" type="audio/mpeg">
+</audio>
+<audio data-key="68" src="sounds/kick.mp3">
+    <source src="sounds/kick.wav" type="audio/wav">
+    <source src="sounds/kick.ogg" type="audio/ogg">
+    <source src="sounds/kick.mp3" type="audio/mpeg">
+</audio>
+
+<!--<script src="./leetcode/easy/String/string_matching.js"></script>-->
+<script src="script.js"></script>
+</body>
+</html>
