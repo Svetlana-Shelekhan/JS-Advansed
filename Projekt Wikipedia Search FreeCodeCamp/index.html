@@ -1,0 +1,36 @@
+<!-- Создайте приложение для поиска, в котором пользователь вводит текст для поиска в поле ввода текста. При нажатии кнопки поиска приложение отобразит результаты поиска в Википедии с заголовком, фрагментом статьи и ссылкой на статью в Википедии. Пользователь может щелкнуть любой результат и перейти на соответствующую страницу Википедии.-->
+
+
+
+
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+      	<meta charset="UTF-8">
+      	<title>Wikipedia Viewer</title>
+            <link rel="stylesheet" href="style.css">
+      </head>
+      <body>
+      
+
+<img src="img/img2.png" id="bg" alt="Wikipedia">
+
+      <h1>Wikipedia Search</h1>
+ 
+<div id="canvas" class="container group">
+    
+    <div id="primaryContent" class="group">
+    
+       <form id="searchForm">
+            <input id="searchInput" type="text" autocomplete="off">
+            <button for="search">Search</button>
+       </form>
+       
+       <div id="resultsList"></div>
+
+
+
+      	  <script src="script.js"></script>
+      	
+      </body>
+      </html>
