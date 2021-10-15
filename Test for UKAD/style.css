@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  opacity: scroll;
+}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  overflow: hidden;
+  background-color: #06373d;
+  padding: 10px 10px;
+}
+
+header a {
+  float: left;
+  color: #ffff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+header a.logo {
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffff;
+}
+header a.logo:hover {
+  background-color:  inherit;
+  color:  #dcdcdc;
+  text-decoration: underline;
+}
+
+header a:hover {
+  background-color: #dbead5;/*#c0c0c0;*/
+  color: #212121;
+  font-weight: bold;
+}
+
+nav {
+  float: left;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  nav {
+    float: none;
+  }
+}
+
+h1{
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  margin-left: 130px;
+  font-weight: bold;
+}
+
+h4{
+  display: block;
+  margin-left: 0px;
+  font-weight: normal;
+    text-decoration: none;
+}
+.description{
+    position: relative;
+  margin: 0;
+  height: 5em;
+  overflow: hidden;
+  font-weight: 600;
+  width: 250px;
+
+}
+
+ #footer {
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    padding: 10px; 
+    background-color: #06373d; 
+    color: #fff; 
+    width: 100%; 
+    height: 80px;
+   }
+
+.carousel {
+  position: relative;
+  width: 833px;
+  padding: 5px 300px;
+  border-radius: 15px;
+ 
+}
+
+.carousel img {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  display: block;
+  transition: transform .4s ease-out;
+}
+
+.arrow {
+  position: absolute;
+  top: 90px;
+  right: 300px;
+  margin-left: 260px;
+  margin-right: -255px;
+  padding: 0;
+  background: #ddd;
+  border-radius: 15px;
+  border: 1px solid gray;
+  font-size: 24px;
+  line-height: 24px;
+  color: #444;
+  display: block;
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.prev {
+  left: 7px;
+}
+
+.next {
+  right: 7px;
+}
+
+.gallery {
+  width: 750px;
+  overflow: hidden;
+  height: 500px;
+}
+
+.gallery ul {
+  height: 130px;
+  width: 9999px;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 250ms;
+}
+
+.gallery li {
+  display: inline-block;
+}
+ .carousel img:hover {
+  transform: scale(1.05);
