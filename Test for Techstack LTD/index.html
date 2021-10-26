@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <title>Test for Techstack LTD</title>
+      <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
+      <header>
+        <a href="index.html">News App</p>
+      </header>
+<div class="container" id='menuBurgerFunction' onclick="burgerMenu(e)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<nav id="SecondNav" class="show">  
+  <div class="dropdown">
+    <a class="mainmenubtn">Categories</a>
+    <div class="dropdown-child">
+        <a href="https://www.theguardian.com/uk/sport">Sport</a>
+        <a href="https://www.theguardian.com/world">World</a>
+        <a href="https://www.theguardian.com/world/coronavirus-outbreak">Covid</a>
+        <a href="https://www.theguardian.com/uk/business">Business</a>
+        <a href="https://www.theguardian.com/uk/">Politics</a>
+        <a href="https://www.theguardian.com/science">Science</a>
+        <a href="https://www.theguardian.com/uk/film">Religion</a>
+        <a href="https://www.theguardian.com/lifeandstyle/health-and-wellbeing">Health</a>
+    </div>  
+  </div>
+  <a class="trending" href="#">Trending News</a>
+</nav>
+
+  
+    <div class="containerSearch">
+        <form class="search-form">
+            <div class="input-group">
+
+              <input type="text" class="search" placeholder="Type something to start search">
+              <div class="close">
+                <img src="img/clear.png" alt="clear">
+              </div>
+            </div>
+            <img src="">
+            <ul class="suggestions"></ul>
+        </form>
+    </div>
+
+
+
+
+<footer>
+  <div id="footer">
+    &copy; Светлана Шелехань
+  </div>
+</footer>
+        <script src="js/burgerMenu.js"></script>
+    <script src="js/showDefaultStructure.js"></script>
+
+    <script src="js/hideCloseBtn.js"></script>
+    <script src="js/showCloseBtn.js"></script>
+    <script src="js/createAPI.js"></script>
+    <script src="js/clearSearchInput.js"></script>
+    <script src="js/displayArticles.js"></script>
+    <script src="js/debounce.js"></script>
+    <script src="js/getDataFromNYTimes.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/scrollFunction.js"></script>
+      	
+</body>
+</html>
