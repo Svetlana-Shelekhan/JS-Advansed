@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  opacity: scroll;
+}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  overflow: hidden;
+  background-color: #000;
+  padding: 10px 10px;
+  color: #ffff;
+}
+header a {
+  float: left;
+  color: #ffff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+header a.logo {
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffff;
+}
+header a.logo:hover {
+  background-color:  inherit;
+  color:  #dcdcdc;
+  text-decoration: underline;
+}
+
+header a:hover {
+  background-color: #dbead5;/*#c0c0c0;*/
+  color: #212121;
+  font-weight: bold;
+}
+form{
+  display: block;
+  position: relative;
+  width  : 740px;
+  height : 498px;
+  margin : 21px auto;
+}
+label {
+  display: block;
+  padding: 0.8em 0 0.2em 0;
+}
+input, textarea{
+  border: 1px solid #444;
+  box-sizing: content-box;
+  font-size: 16px;
+  display : block;
+  border-radius: 5px;
+  padding : 5px;
+  margin  : 10px 0 0 -2px;
+  width   : 551px;
+  height  : 91px;
+  resize  : none;
+  overflow: auto;
+}
+input {
+  width: 551px;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #444;
+  box-sizing: content-box;
+  font-size: 16px;
+}
+input:focus, textarea:focus {
+  background: rgba(0,0,0,.1);
+  border-radius: 5px;
+  outline: none;
+}
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+textarea:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+button {
+  position: absolute;
+  left: 423px;
+  top: 275px;
+  padding: 10px;
+  font: bold -15.4em sans-serif;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+
+-webkit-transform: rotate(-1.5deg);
+   -moz-transform: rotate(-1.5deg);
+    -ms-transform: rotate(-1.5deg);
+     -o-transform: rotate(-1.5deg);
+        transform: rotate(359.6deg);
+}
+
+button:after {
+  content: " >>>";
+}
+
+button:hover,
+button:focus {
+  outline   : none;
+  background: #000;
+  color   : #FFF;
+}
+@media only screen and (max-width: 600px) {
+  form input{
+    width: 50%;
+    margin-top: 0;
+    margin-left: 5%;
+  }
+  form label{
+    width: 100%;
+    margin-top: 0;
+    margin-left: 5%;
+  }
+  form textarea{
+    width: 50%;
+    margin-left: 5%;
+  }
+  form button{
+    margin: 0;
+    position: absolute;
+    left: 279px;
+  }
+}
+span{
+  color: red;
+  }
+p {
+  display: block;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0px;
+}
+.error {
+  color: red;
+}
+.info {
+  color: orange;
+}
+.success {
+  color: green;
+}
+
+.resalt{
+  display: block;
+  position: relative;
+  left: 20px;
+  top: -130px;
+
+}
+#footer {
+  position: fixed; 
+  left: 0; 
+  bottom: 0; 
+  padding: 10px; 
+  background-color: #000; 
+  color: #fff; 
+  width: 100%; 
+  height: 80px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <title>Test for WebHome</title>
+      <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+      <header>
+            <a href="home.html" class="logo">WebHome</a>
+            <nav>
+                  <a class="active" href="#">Показать еще</a>
+                  <a href="#">Пагинация</a>
+            </nav>
+      </header>
+     
+ <form method="GET">
+    <label for="name">Name<span class="red"> *</span></label>
+    <input type="text" required name="name" id="name" placeholder="Your name..."  autofocus>
+
+    <label for="comment">Comment<span class="red"> *</span></label>
+    <textarea  placeholder="Your comments..." name="comment" id="comment" required></textarea>
+    <p class="message success" id="feedback"></p>
+    <button type="submit" id="comment-add" class="btn btn-primary">Опубликовать</button>
+</form>
+
+<div class="resalt">
+  <div id="comment-field"></div>
+</div>
+    
+<footer>
+  <div id="footer">
+    &copy; Светлана Шелехань
+  </div>
+</footer>
+
+<script src="src/index.js"></script>
+      	
+</body>
+</html>
