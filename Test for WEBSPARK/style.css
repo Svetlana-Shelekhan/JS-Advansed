@@ -1,0 +1,1068 @@
+body { 
+  margin: 0;
+}
+.vectorUp{
+  position: absolute;
+  width: 689px;
+  height: 408.09px;
+  left: -59px;
+  top: -5.5px;
+}
+header{
+  position: absolute;
+  width: 1373px;
+  height: 172px;
+  left: -24px;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.67);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12), inset 0px 12px 24px rgba(0, 0, 0, 0.12);
+}
+header p{
+  position: absolute;
+  width: 195px;
+  height: 29px;
+  left: 579px;
+  top: 33px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.01em;
+  color: #000000;
+}
+.startP{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  color: #3D8EDA;
+  position: absolute;
+  width: 135px;
+  height: 28px;
+  left: 754px;
+  top: 45px;
+  border: 1px solid #3D8EDA;
+  box-sizing: border-box;
+  border-radius: 2px; 
+  padding-left: 19px;
+}
+.cauntPost, .post{
+  position: absolute;
+  width: 63px;
+  height: 16px;
+  left: 577px;
+  top: 78px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.post{
+  font-weight: normal;
+  left: 603px;
+
+}
+.cauntFollowers, .followers{
+  position: absolute;
+  width: 105px;
+  height: 16px;
+  left: 653px;
+  top: 78px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.followers{
+  font-weight: normal;
+  left: 693px;
+}
+.cauntFollowing, .following{
+  position: absolute;
+  width: 85px;
+  height: 16px;
+  left: 776px;
+  top: 80px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.following{
+  font-weight: normal;
+  left: 800px;
+}
+form{
+  position: absolute;
+  top: 20px;
+  left: 300px;
+}
+label{
+  position: absolute;
+  width: 33px;
+  height: 19px;
+  left: 276px;
+  top: 101px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.fromInput{
+  position: absolute;
+  width: 162px;
+  height: 28px;
+  left: 42px;
+  top: -2px;
+  border: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.toInput{
+  position: absolute;
+  width: 162px;
+  height: 28px;
+  left: 229px;
+  top: -2px;
+  border: 1px solid #DEDEDE;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.list1{
+  position: absolute;
+  top: 197px;
+  right: 261px;
+  font-size: 28px;
+  color: #929292; 
+  cursor: pointer;
+}
+.list2{
+  position: absolute;
+  top: 197px;
+  right: 215px;
+  font-size: 28px;
+  color: #929292; 
+  cursor: pointer;
+}
+.conteiner{
+  width: 100%;
+  display: flex;
+}
+.conteiner:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column{
+  float: left;
+    width: 25%;
+    padding: 10px;
+}
+    /*start rectrectangle1*/
+
+.sky{
+  position: absolute;
+  width: 203px;
+  height: 203px;
+  left: 300px;
+  top: 235px;
+}
+
+.today{
+  position: absolute;
+  width: 43px;
+  height: 19px;
+  left: 312px;
+  top: 431px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.todayData{
+  position: absolute;
+  width: 70px;
+  height: 19px;
+  left: 404px;
+  top: 431px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.one{
+  position: absolute;
+  left: 318px;
+  right: 8.33%;
+  top: 476px;
+  bottom: 12.5%;
+}
+.two{
+  position: absolute;
+  left: 403px;
+  right: 8.33%;
+  top: 476px;
+  bottom: 12.5%;
+}
+.chatOne{
+  width: 28px;
+  position: absolute;
+  left: 312px;
+  right: 8.33%;
+  top: 498px;
+  bottom: 12.5%;
+}
+.pChatOne{
+  position: absolute;
+  left: 345px;
+  right: 8.33%;
+  top: 487px;
+  bottom: 12.5%;  
+}
+.chatTwo{
+  width: 28px;
+  position: absolute;
+  left: 397px;
+  right: 8.33%;
+  top: 498px;
+  bottom: 12.5%;
+}
+.pChatTwo{
+  position: absolute;
+  left: 429px;
+  right: 8.33%;
+  top: 487px;
+  bottom: 12.5%;  
+}
+.uploadOne{
+  position: absolute;
+  width: 86px;
+  height: 16px;
+  left: 312px;
+  top: 533px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.pUploadOne{
+  position: absolute;
+  width: 63px;
+  height: 14px;
+  left: 429px;
+  top: 536px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000; 
+}
+/*end rectrectangle1*/
+
+/*start rectrectangle2*/
+.rectangle2{
+  width: 100%;
+}
+.ocean{
+  position: absolute;
+  width: 203px;
+  height: 203px;
+  left: 515px;
+  top: 235px;
+}
+
+.today2{
+  position: absolute;
+  width: 43px;
+  height: 19px;
+  left: 523px;
+  top: 431px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.todayData2{
+  position: absolute;
+  width: 70px;
+  height: 19px;
+  left: 627px;
+  top: 431px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.one2{
+  position: absolute;
+  left: 530px;
+  right: 8.33%;
+  top: 476px;
+  bottom: 12.5%;
+}
+.two2{
+  position: absolute;
+  left: 624px;
+  right: 8.33%;
+  top: 476px;
+  bottom: 12.5%;
+}
+.chatOne2{
+  width: 28px;
+  position: absolute;
+  left: 527px;
+  right: 8.33%;
+  top: 498px;
+  bottom: 12.5%;
+}
+.pChatOne2{
+  position: absolute;
+  left: 557px;
+  right: 8.33%;
+  top: 487px;
+  bottom: 12.5%;  
+}
+.chatTwo2{
+  width: 28px;
+  position: absolute;
+  left: 619px;
+  right: 8.33%;
+  top: 498px;
+  bottom: 12.5%;
+}
+.pChatTwo2{
+  position: absolute;
+  left: 649px;
+  right: 8.33%;
+  top: 487px;
+  bottom: 12.5%;  
+}
+.uploadOne2{
+  position: absolute;
+  width: 86px;
+  height: 16px;
+  left: 523px;
+  top: 533px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.pUploadOne2{
+  position: absolute;
+  width: 63px;
+  height: 14px;
+  left: 655px;
+  top: 536px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000; 
+}
+/*end rectrectangle2*/
+
+/*start rectrectangle3*/
+.circle{
+  position: absolute;
+  width: 203px;
+  height: 203px;
+  left: 722px;
+  top: 235px;
+}
+
+.today3{
+  position: absolute;
+  width: 43px;
+  height: 19px;
+  left: 734px;
+  top: 431px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.todayData3{
+  position: absolute;
+  width: 70px;
+  height: 19px;
+  left: 838px;
+  top: 431px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.one3{
+  position: absolute;
+  left: 744px;
+  right: 8.33%;
+  top: 476px;
+  bottom: 12.5%;
+}
+.two3{
+  position: absolute;
+  left: 841px;
+  right: 8.33%;
+  top: 476px;
+  bottom: 12.5%;
+}
+.chatOne3{
+  width: 28px;
+  position: absolute;
+  left: 739px;
+  right: 8.33%;
+  top: 498px;
+  bottom: 12.5%;
+}
+.pChatOne3{
+  position: absolute;
+  left: 768px;
+  right: 8.33%;
+  top: 487px;
+  bottom: 12.5%;  
+}
+.chatTwo3{
+  width: 28px;
+  position: absolute;
+  left: 837px;
+  right: 8.33%;
+  top: 498px;
+  bottom: 12.5%;
+}
+.pChatTwo3{
+  position: absolute;
+  left: 867px;
+  right: 8.33%;
+  top: 487px;
+  bottom: 12.5%;  
+}
+.uploadOne3{
+  position: absolute;
+  width: 86px;
+  height: 16px;
+  left: 734px;
+  top: 533px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.pUploadOne3{
+  position: absolute;
+  width: 63px;
+  height: 14px;
+  left: 851px;
+  top: 536px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000; 
+}
+/*end rectrectangle3*/
+
+/*start rectrectangle4*/
+.rectangle4{
+  width: 100%;
+}
+.sky4{
+  position: absolute;
+  width: 203px;
+  height: 203px;
+  left: 933px;
+  top: 235px;
+}
+
+.today4{
+  position: absolute;
+  width: 43px;
+  height: 19px;
+  left: 945px;
+  top: 431px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.todayData4{
+  position: absolute;
+  width: 70px;
+  height: 19px;
+  left: 1057px;
+  top: 431px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.one4{
+  position: absolute;
+  left: 945px;
+  right: 8.33%;
+  top: 476px;
+  bottom: 12.5%;
+}
+.two4{
+  position: absolute;
+  left: 1059px;
+  right: 8.33%;
+  top: 476px;
+  bottom: 12.5%;
+}
+.chatOne4{
+  width: 28px;
+  position: absolute;
+  left: 941px;
+  right: 8.33%;
+  top: 498px;
+  bottom: 12.5%;
+}
+.pChatOne4{
+  position: absolute;
+  left: 973px;
+  right: 8.33%;
+  top: 487px;
+  bottom: 12.5%;  
+}
+.chatTwo4{
+  width: 28px;
+  position: absolute;
+  left: 1056px;
+  right: 8.33%;
+  top: 498px;
+  bottom: 12.5%;
+}
+.pChatTwo4{
+  position: absolute;
+  left: 1089px;
+  right: 8.33%;
+  top: 487px;
+  bottom: 12.5%;  
+}
+.uploadOne4{
+  position: absolute;
+  width: 86px;
+  height: 16px;
+  left: 945px;
+  top: 533px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.pUploadOne4{
+  position: absolute;
+  width: 63px;
+  height: 14px;
+  left: 1062px;
+  top: 536px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000; 
+}
+/*end rectrectangle4*/
+
+/*start rectrectangle5*/
+.rectangle5{
+  width: 100%;
+}
+.dawn{
+  position: absolute;
+  width: 203px;
+  height: 203px;
+  left: 300px;
+  top: 592px;
+}
+
+.today5{
+  position: absolute;
+  width: 43px;
+  height: 19px;
+  left: 312px;
+  top: 787px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.todayData5{
+  position: absolute;
+  width: 70px;
+  height: 19px;
+  left: 416px;
+  top: 787px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.one5{
+  position: absolute;
+  left: 312px;
+  right: 8.33%;
+  top: 834px;
+  bottom: 12.5%;
+}
+.two5{
+  position: absolute;
+  left: 416px;
+  right: 8.33%;
+  top: 834px;
+  bottom: 12.5%;
+}
+.chatOne5{
+  width: 28px;
+  position: absolute;
+  left: 307px;
+  right: 8.33%;
+  top: 857px;
+  bottom: 12.5%;
+}
+.pChatOne5{
+  position: absolute;
+  left: 336px;
+  right: 8.33%;
+  top: 845px;
+  bottom: 12.5%;  
+}
+.chatTwo5{
+  width: 28px;
+  position: absolute;
+  left: 413px;
+  right: 8.33%;
+  top: 860px;
+  bottom: 12.5%;
+}
+.pChatTwo5{
+  position: absolute;
+  left: 443px;
+  right: 8.33%;
+  top: 848px;
+  bottom: 12.5%;  
+}
+.uploadOne5{
+  position: absolute;
+  width: 86px;
+  height: 16px;
+  left: 312px;
+  top: 891px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.pUploadOne5{
+  position: absolute;
+  width: 63px;
+  height: 14px;
+  left: 442px;
+  top: 896px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000; 
+}
+/*end rectrectangle5*/
+
+/*start rectrectangle6*/
+.man{
+  position: absolute;
+  width: 203px;
+  height: 203px;
+  left: 515px;
+  top: 592px;
+}
+
+.today6{
+  position: absolute;
+  height: 19px;
+  left: 523px;
+  top: 787px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.todayData6{
+  position: absolute;
+  width: 70px;
+  height: 19px;
+  left: 627px;
+  top: 787px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.one6{
+  position: absolute;
+  left: 530px;
+  right: 8.33%;
+  top: 834px;
+  bottom: 12.5%;
+}
+.two6{
+  position: absolute;
+  left: 624px;
+  right: 8.33%;
+  top: 834px;
+  bottom: 12.5%;
+}
+.chatOne6{
+  width: 28px;
+  position: absolute;
+  left: 527px;
+  right: 8.33%;
+  top: 857px;
+  bottom: 12.5%;
+}
+.pChatOne6{
+  position: absolute;
+  left: 557px;
+  right: 8.33%;
+  top: 845px;
+  bottom: 12.5%;  
+}
+.chatTwo6{
+  width: 28px;
+  position: absolute;
+  left: 619px;
+  right: 8.33%;
+  top: 860px;
+  bottom: 12.5%;
+}
+.pChatTwo6{
+  position: absolute;
+  left: 649px;
+  right: 8.33%;
+  top: 848px;
+  bottom: 12.5%;  
+}
+.uploadOne6{
+  position: absolute;
+  width: 86px;
+  height: 16px;
+  left: 523px;
+  top: 891px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.pUploadOne6{
+  position: absolute;
+  width: 63px;
+  height: 14px;
+  left: 655px;
+  top: 896px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000; 
+}
+/*end rectrectangle6*/
+
+/*start rectrectangle7*/
+.terrace{
+  position: absolute;
+  width: 203px;
+  height: 203px;
+  left: 722px;
+  top: 592px;
+}
+
+.today7{
+  position: absolute;
+  width: 43px;
+  height: 19px;
+  left: 734px;
+  top: 787px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.todayData7{
+  position: absolute;
+  width: 70px;
+  height: 19px;
+  left: 838px;
+  top: 787px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.one7{
+  position: absolute;
+  left: 744px;
+  right: 8.33%;
+  top: 834px;
+  bottom: 12.5%;
+}
+.two7{
+  position: absolute;
+  left: 841px;
+  right: 8.33%;
+  top: 834px;
+  bottom: 12.5%;
+}
+.chatOne7{
+  width: 28px;
+  position: absolute;
+  left: 739px;
+  right: 8.33%;
+  top: 857px;
+  bottom: 12.5%;
+}
+.pChatOne7{
+  position: absolute;
+  left: 768px;
+  right: 8.33%;
+  top: 845px;
+  bottom: 12.5%;  
+}
+.chatTwo7{
+  width: 28px;
+  position: absolute;
+  left: 837px;
+  right: 8.33%;
+  top: 860px;
+  bottom: 12.5%;
+}
+.pChatTwo7{
+  position: absolute;
+  left: 867px;
+  right: 8.33%;
+  top: 848px;
+  bottom: 12.5%;  
+}
+.uploadOne7{
+  position: absolute;
+  height: 16px;
+  left: 734px;
+  top: 891px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.pUploadOne7{
+  position: absolute;
+  width: 63px;
+  height: 14px;
+  left: 851px;
+  top: 896px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000; 
+}
+/*end rectrectangle7*/
+
+/*start rectrectangle8*/
+.fireplace{
+  position: absolute;
+  width: 203px;
+  height: 203px;
+  left: 933px;
+  top: 592px;
+}
+
+.today8{
+  position: absolute;
+  width: 43px;
+  height: 19px;
+  left: 945px;
+  top: 787px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.todayData8{
+  position: absolute;
+  width: 70px;
+  height: 19px;
+  left: 1057px;
+  top: 787px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.one8{
+  position: absolute;
+  left: 945px;
+  right: 8.33%;
+  top: 834px;
+  bottom: 12.5%;
+}
+.two8{
+  position: absolute;
+  left: 1059px;
+  right: 8.33%;
+  top: 834px;
+  bottom: 12.5%;
+}
+.chatOne8{
+  width: 28px;
+  position: absolute;
+  left: 941px;
+  right: 8.33%;
+  top: 857px;
+  bottom: 12.5%;
+}
+.pChatOne8{
+  position: absolute;
+  left: 973px;
+  right: 8.33%;
+  top: 845px;
+  bottom: 12.5%;  
+}
+.chatTwo8{
+  width: 28px;
+  position: absolute;
+  left: 1056px;
+  right: 8.33%;
+  top: 860px;
+  bottom: 12.5%;
+}
+.pChatTwo8{
+  position: absolute;
+  left: 1089px;
+  right: 8.33%;
+  top: 848px;
+  bottom: 12.5%;  
+}
+.uploadOne8{
+  position: absolute;
+  width: 86px;
+  height: 16px;
+  left: 945px;
+  top: 891px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.pUploadOne8{
+  position: absolute;
+  width: 63px;
+  height: 14px;
+  left: 1062px;
+  top: 896px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000; 
+}
+/*end rectrectangle8*/
+.loader{
+  position: absolute;
+  width: 129px;
+  height: 28px;
+  left: 652px;
+  top: 949px;
+  border: 1px solid #929292;
+  box-sizing: border-box;
+  border-radius: 14px;
+   color: #929292; 
+}
+.vectorDown{
+  position: absolute;
+  width: 209.85px;
+  height: 340.61px;
+  left: 1139px;
+  top: 912px;
+  position: absolute;
+}
+
+@media screen and (max-width: 550px) {
+  .conteiner{
+    width: 45%;
+    display: table;
+  }
+}
+
+@media screen and(max-width: 240px){
+  .loader{
+    display: flex;
+      left: 300px;
+  }
+}
+
